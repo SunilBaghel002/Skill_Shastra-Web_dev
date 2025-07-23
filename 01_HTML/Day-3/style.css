@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+
+
+
+form {
+    max-width: 400px;
+    margin:auto;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: pink;
+}
+
+input {
+    width: 380px;
+    padding: 8px;
+    margin-top: 4px;
+}
+button {
+    margin-top: 4px;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* h2 {
+    color: red;
+} */
+
+#blueWalaText{
+    color: blue;
+}
+
+.usertext {
+    color: purple;
+}
