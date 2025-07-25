@@ -49,3 +49,9 @@ button {
 .usertext {
     color: purple;
 }
+
+section {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}

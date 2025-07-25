@@ -1,0 +1,38 @@
+/* element selector */
+h1, h2{
+    color: red;
+    background-color: yellow;
+}
+
+/* Id Selector  */
+#greet{
+    color: black;
+    background-color: bisque;
+}
+
+/* Class Selector  */
+.greet{
+    color: black;
+    background-color: bisque;
+}
+
+/* child selector */
+main>p{
+    color: yellowgreen;
+    background-color: red;
+}
+
+/* descendant selectors  */
+div p {
+    color: aquamarine;
+    background-color: black;
+}
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* kuch aur selectors hote hain jinko mai agli class me bataunga  */
