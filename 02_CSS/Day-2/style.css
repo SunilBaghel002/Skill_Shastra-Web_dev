@@ -20,7 +20,7 @@ button {
 /* box model */
 
 .box {
-    width: 50px;
+    inline-size: 50px;
     padding: 20px;
     border: 5px solid black;
     margin: 30px;
