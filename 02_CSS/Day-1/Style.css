@@ -35,8 +35,21 @@ div p {
 }
 
 
-/* kuch aur selectors hote hain jinko mai agli class me bataunga  */
+/* pseudo-class selector  */
 
+ button:hover {
+      /* background-color: #007bff; */
+      color: white;
+    }
+
+button:active {
+      /* background-color: #0056b3; */
+      transform: translateY(1px);
+}
+
+p:hover{
+    color:green
+}
 
 
 

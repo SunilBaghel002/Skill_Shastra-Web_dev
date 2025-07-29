@@ -1,0 +1,27 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: #6a687a;
+    /* color: #00ff00;(for green color) */
+    /* color: #0000ff;(for blue color)*/
+}
+
+div {
+    /* background-color: rgb(64, 229, 124); */
+}
+
+button {
+    background-color:rgba(255, 0, 0, 1) ;
+}
+
+
+/* box model */
+
+.box {
+    width: 50px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+}
