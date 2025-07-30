@@ -1,0 +1,71 @@
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Element Selector */
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Class Selector */
+.skills{
+    margin-right: 40px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #6200ea;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 👈 simple shadow */
+  text-align: center;
+}
+.card:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* 👈 shadow on hover */
+}
+
+/* ID Selector */
+#student-name {
+  color: #6200ea;
+  margin-top: 10px;
+}
+
+/* Group Selector */
+.profile-pic, .branch {
+  margin-bottom: 10px;
+}
+
+/* Descendant Selector */
+
+.card ul.skills li {
+  list-style: none;
+  padding: 5px;
+  margin: 4px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+/* Pseudo-class Selector */
+.contact-btn:hover {
+  background-color: #6200ea;
+  color: white;
+}
+
+/* Button styling */
+.contact-btn {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 2px solid #6200ea;
+  border-radius: 5px;
+  color: #6200ea;
+  transition: all 0.3s ease;
+}
