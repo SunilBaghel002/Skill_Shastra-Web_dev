@@ -3,38 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="Style.css">
-</head>
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
 <body>
-    //Navigation Bar
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">AK</div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#" class="nav-link">About</a></li>
-                <li><a href="#" class="nav-link">Skills</a></li>
-                <li><a href="#" class="nav-link">Project</a></li>
-                <li><a href="#" class="nav-link">Contact</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="/Portfolio/courses.html" class="nav-link">Courses</a></li>
             </ul>
         </div>
     </nav>
 
-    //Hero Section
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
                 <h1>Aryan Kumar</h1>
                 <div class="role">Frontend Developer</div>
-                <div class="tagline">
-                    Building beautiful and functional web experiences.
-                </div>
+                <div class="tagline">Creating beautiful, functional web experiences with clean code and creative design.</div>
             </div>
             <div class="hero-image">
-                <div class="hero-image-placeholder">Profile Imge</div>
+                <div class="hero-image-placeholder">Profile Image</div>
             </div>
         </div>
     </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <div class="about-image">Profile Photo</div>
+                <div class="about-text">
+                    <h3>Hello, I'm Aryan!</h3>
+                    <p>I'm a passionate frontend developer with 3+ years of experience creating modern, responsive web applications. I love turning complex problems into simple, beautiful designs.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or enjoying a good cup of coffee while sketching out my next big idea.</p>
+                    <p>I believe in writing clean, maintainable code and creating user experiences that are both functional and delightful.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card html">
+                    <h4>HTML5</h4>
+                    <p>Semantic markup and modern HTML standards for accessible, well-structured web content.</p>
+                </div>
+                <div class="skill-card css">
+                    <h4>CSS3</h4>
+                    <p>Advanced styling with Flexbox, Grid, animations, and responsive design principles.</p>
+                </div>
+                <div class="skill-card js">
+                    <h4>JavaScript</h4>
+                    <p>Modern ES6+ JavaScript for dynamic, interactive web applications and DOM manipulation.</p>
+                </div>
+                <div class="skill-card react">
+                    <h4>React</h4>
+                    <p>Component-based architecture and state management for scalable frontend applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">Project Screenshot</div>
+                    <div class="project-content">
+                        <h4>E-Commerce Platform</h4>
+                        <p>A fully responsive online shopping platform built with modern web technologies. Features include product catalogs, shopping cart functionality, and secure checkout process.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">Project Screenshot</div>
+                    <div class="project-content">
+                        <h4>Task Management App</h4>
+                        <p>An intuitive task management application with drag-and-drop functionality, real-time updates, and collaborative features for team productivity.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">Project Screenshot</div>
+                    <div class="project-content">
+                        <h4>Weather Dashboard</h4>
+                        <p>A beautiful weather application that provides real-time weather data, forecasts, and location-based services with an elegant, user-friendly interface.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input placeholder="Enter name..." type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input placeholder="Enter email..." type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea placeholder="Enter your message... " id="message" name="mess  age" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>made by aryan </p>
+    </footer>
 </body>
 </html>
